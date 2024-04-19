@@ -26,7 +26,7 @@ namespace SystemTextJsonPatch.Internal.Proxies
 		{
 			var value = convertedValue == null ? null : JsonSerializer.SerializeToNode(convertedValue);
 
-			if (_propertyName == Consts.LastElement)
+			if (_propertyName == Consts.LastElement || (_jsonArray.Count == int.Parse(_propertyName)!))
 			{
 				_jsonArray.Add(value);
 			}

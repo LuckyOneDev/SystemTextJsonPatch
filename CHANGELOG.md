@@ -1,3 +1,6 @@
+## 3.1.1
+- Fixes out of range exception when trying to add element to an empty JsonArray
+
 ## 3.1.0
 - Added .NET 8 target framework
 

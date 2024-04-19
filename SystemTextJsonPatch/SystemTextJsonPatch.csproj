@@ -7,8 +7,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>aspnetcore;json;jsonpatch;system.text.json;rfc6902;</PackageTags>
     <LangVersion>12</LangVersion>
-    <Version>3.1.0</Version>
-    <RepositoryUrl>https://github.com/Havunen/SystemTextJsonPatch.git</RepositoryUrl>
+    <Version>3.1.1</Version>
+    <RepositoryUrl>https://github.com/LuckyOneDev/SystemTextJsonPatch.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <AnalysisLevel>6.0-all</AnalysisLevel>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -25,10 +25,11 @@
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <SignAssembly>False</SignAssembly>
-    <Title>System Text Json Patch</Title>
-    <Authors>Havunen</Authors>
+    <Title>System Text Json Patch Custom</Title>
+    <Authors>Havunen, LuckyOne</Authors>
     <Copyright></Copyright>
     <WarningLevel>7</WarningLevel>
+    <PackageId>$(AssemblyName)Custom</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
